@@ -5,7 +5,7 @@ function Home() {
     return (
         <div>
             <HeroHome />
-            <div className="my-5">
+            <div className="col-12 col-md-8 mx-auto my-5">
                 <CardHome />
             </div>
         </div>
