@@ -33,6 +33,15 @@ font-size: 0.75rem;
     z-index: 1;
 }
 
+/* BANNER SERVICES ET PORTFOLIO */
+.banner-generic {
+    background-image: url("../public/img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+
 /* FOOTER */
 
 footer .container {
