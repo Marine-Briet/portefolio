@@ -1,20 +1,20 @@
 function CardHome() {
     
-    const titleH3 = "fw-bold border-bottom border-primary border-3 pb-2";
+    const titleH2 = "fw-bold border-bottom border-primary border-3 pb-2";
     
     
     return (
         <div className="container shadow-lg rounded">
             <div className="row">
                 <div className="col-12 col-md-6 my-4 px-4">
-                    <h3 className={titleH3}>A propos</h3>
+                    <h2 className={titleH2}>A propos</h2>
                     <img src="/img/john-doe-about.jpg" alt="John Doe" className="img-fluid mt-5 mb-3" />
                     <p className="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed tempor purus. Mauris ultricies lacinia elementum. Sed eget dictum turpis. Duis tincidunt euismod orci.</p>
                     <p className="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed tempor purus. Mauris ultricies lacinia elementum. Sed eget dictum turpis. Duis tincidunt euismod orci.</p>
                     <p className="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed tempor purus. Mauris ultricies lacinia elementum. Sed eget dictum turpis. Duis tincidunt euismod orci. </p>
                 </div>
                 <div className="col-12 col-md-6 my-4 px-4">
-                    <h3 className={titleH3}>Mes compétences</h3>
+                    <h2 className={titleH2}>Mes compétences</h2>
                     <div className="progress-bar-skills mt-5">
                         <p className="mb-1">HTML5 90%</p>
                         <div className="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">

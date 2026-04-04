@@ -1,26 +1,17 @@
 import Accordion from "../components/Accordion";
-import { BsPhone } from "react-icons/bs";
-import { BsEnvelopeAt } from "react-icons/bs";
-import { BsGeoAlt } from "react-icons/bs";
-import { BsMap } from "react-icons/bs";
+import InfosContact from "../components/InfosContact";
+import PageIntro from "../components/PageIntro";
 import { BsGlobe } from "react-icons/bs";
 
 function LegalNotice() {
     return (
         <div className="container">
             <div className="col-12 col-md-8 mx-auto mb-4">
-                <div className="text-center my-4">
-                    <h1 className="d-inline-block fw-bold border-bottom border-primary border-3 pb-2">Mentions Légales</h1>
-                </div>
+                
+                <PageIntro title="Mentions Légales" content="" />
                 
                 <Accordion title="Editeur du site" id="editeur">
-                    <address>
-                        <span className="fs-5">John Doe</span> <br />
-                        <span><BsMap/> 40 rue Laure Diebold</span> <br />
-                        <span><BsGeoAlt/> 69009 Lyon, France </span><br />
-                        <span><BsPhone/> 10 20 30 40 50 </span><br />
-                        <span><BsEnvelopeAt/> john.doe@gmail.com</span>
-                    </address>
+                    <InfosContact />
                 </Accordion>
                 <Accordion title="Hébergeur" id="hebergeur">
                     <span className="fw-bold fs-5">alwaysdata</span> <br />
