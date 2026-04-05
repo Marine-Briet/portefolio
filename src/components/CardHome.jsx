@@ -1,6 +1,6 @@
 function CardHome() {
     
-    const titleH2 = "fw-bold border-bottom border-primary border-3 pb-2";
+    const titleH2 = "border-bottom border-primary border-3 pb-2";
     
     
     return (

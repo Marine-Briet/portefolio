@@ -5,7 +5,7 @@ import ProjectCard from "../components/ProjectCard";
 
 function Portefolio() {
     const structurePCard = "col-12 col-md-4 text-center mb-4";
-    const titlePCard = "fw-bold fs-4 mt-2 mb-1";
+    const titlePCard = "fs-4 mt-2 mb-1";
     const contentPCard = "fs-6";
     const skillsPCard= "text-muted bg-light border-top rounded-bottom border-secondary-subtle mt-auto mb-0";
 

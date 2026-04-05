@@ -1,0 +1,11 @@
+.footer-link:hover {
+    font-weight: 900;
+}
+
+.social-media {
+    color: gray
+}
+
+.social-media:hover {
+    color: white;
+}

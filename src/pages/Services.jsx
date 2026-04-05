@@ -9,7 +9,7 @@ function Services() {
     
     const structureSCard = "col-12 col-md-4 text-center";
     const iconSCard = "text-primary fs-1 mt-3";
-    const titleSCard = "fw-bold fs-4 mt-4 mb-1";
+    const titleSCard = "fs-4 mt-4 mb-1";
     const contentSCard = "fs-6";
     
     return (
