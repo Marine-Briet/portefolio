@@ -16,13 +16,13 @@ return (
                     </div>
 
                     <div className="text-left pt-3">
-                        <a href="https://github.com/Marine-Briet" target="_blank" rel="noreferrer" className="text-white me-3">
+                        <a href="https://github.com/github-john-doe" target="_blank" rel="noreferrer" className="text-white me-3">
                             <BsGithub size={24}/>
                         </a>
                         <a href="https://x.com/?lang=fr" target="_blank" rel="noreferrer" className="text-white me-3">
                             <BsTwitterX size={24}/>
                         </a>
-                        <a href="https://www.linkedin.com/in/marine-briet-984359219/" target="_blank" rel="noreferrer" className="text-white me-3">
+                        <a href="https://www.linkedin.com/in/john-doe" target="_blank" rel="noreferrer" className="text-white me-3">
                             <BsLinkedin size={24}/>
                         </a>
                     </div> 
