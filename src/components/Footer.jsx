@@ -52,7 +52,7 @@ return (
                     <ul className="list-unstyled">
                         {navLinks.map((link) => (
                             <li key={link.to}>
-                                <Link className="footer-link text-white text-decoration-none" to={link.to}>
+                                <Link className="footer-link text-white text-decoration-none" to={link.to} target="_blank" rel="nofollow noopener noreferrer">
                                     {link.label}
                                 </Link>
                             </li>
@@ -65,7 +65,7 @@ return (
                     <ul className="list-unstyled">
                         {realisations.map((link) => (
                             <li key={link.label}>
-                                <Link className="footer-link text-white text-decoration-none" to={link.to}>
+                                <Link className="footer-link text-white text-decoration-none" to={link.to} target="_blank" rel="nofollow noopener noreferrer">
                                     {link.label}
                                 </Link>
                             </li>
