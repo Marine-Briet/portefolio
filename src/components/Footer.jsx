@@ -25,7 +25,7 @@ return (
     <footer className="bg-dark text-white py-5">
         <div className="container">
             <div className="row align-items-start">
-                <div className="col-12 col-md-4 mb-4">
+                <div className="col-12 col-md-4 mb-3 mb-md-0">
                     <div>
                         <h3>John Doe</h3>
                         <p className="mb-0">40 rue Laure Diebold</p>
@@ -47,7 +47,7 @@ return (
                     </div> 
                 </div>
 
-                <div className="col-12 col-md-4 mb-4">
+                <div className="col-12 col-md-4">
                     <h3>Liens utiles</h3>
                     <ul className="list-unstyled">
                         {navLinks.map((link) => (
@@ -60,7 +60,7 @@ return (
                     </ul>
                 </div>
 
-                <div className="col-12 col-md-4 mb-4">
+                <div className="col-12 col-md-4">
                     <h3>Mes dernières réalisations</h3>
                     <ul className="list-unstyled">
                         {realisations.map((link) => (
