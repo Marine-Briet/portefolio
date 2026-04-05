@@ -27,8 +27,8 @@ The final site mockups were provided as working materials.
 
 1. **Clone the repository**
 ```bash
-git clone <REPO_URL>
-cd <FOLDER_NAME>
+git clone <https://github.com/Marine-Briet/portefolio.git>
+cd portefolio
 ```
 
 2. **Install dependencies**
