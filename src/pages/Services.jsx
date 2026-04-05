@@ -7,7 +7,7 @@ import { BsSearch } from "react-icons/bs";
 
 function Services() {
     
-    const structureSCard = "col-12 col-md-4 text-center";
+    const structureSCard = "col-12 col-md-4 text-center mb-4 mb-md-0";
     const iconSCard = "text-primary fs-1 mt-3";
     const titleSCard = "fs-4 mt-4 mb-1";
     const contentSCard = "fs-6";
