@@ -1,7 +1,7 @@
 import InfosContact from "./InfosContact";
 
 function CardContact() {
-   const titleH2 = "fw-bold border-bottom border-primary border-3 pb-2 mb-4";
+   const titleH2 = "border-bottom border-primary border-3 pb-2 mb-4";
 
     return (
         <div className="container shadow-lg rounded my-4">
