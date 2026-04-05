@@ -2,10 +2,14 @@ import Accordion from "../components/Accordion";
 import InfosContact from "../components/InfosContact";
 import PageIntro from "../components/PageIntro";
 import { BsGlobe } from "react-icons/bs";
+import { Helmet } from 'react-helmet-async';
 
 function LegalNotice() {
     return (
         <div className="container">
+            <Helmet>
+                <meta name="robots" content="noindex" />
+            </Helmet>
             <div className="col-12 col-md-8 mx-auto mb-4">
                 
                 <PageIntro title="Mentions Légales" content="" />
