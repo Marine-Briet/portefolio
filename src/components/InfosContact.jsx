@@ -1,7 +1,4 @@
-import { BsPhone } from "react-icons/bs";
-import { BsEnvelopeAt } from "react-icons/bs";
-import { BsGeoAlt } from "react-icons/bs";
-import { BsMap } from "react-icons/bs";
+import { BsPhone, BsEnvelopeAt, BsGeoAlt, BsMap } from "react-icons/bs";
 
 
 function InfosContact() {
