@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import "./Header.css";
+import './Header.css';
 
 function Header() {
     const navLinkClass = ({ isActive }) =>
